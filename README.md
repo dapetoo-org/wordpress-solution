@@ -69,6 +69,11 @@ gdisk is an interactive GUID partition table (GPT) manipulator and it requires r
     sudo gdisk /dev/xvdh
 ```
 
+**Gdisk Screenshot**
+![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-gdisk.png)
+
+![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-gdisk-dbserver.png)
+
 Install Logical Volume Manager to be able to create virtual block devices from block storage and run **lvmdiskscan ** to scan for disk that may be used as physical volumes
 **YUM** and **DNF** are package managers for RedHat, CentOS and Fedora Linux distribution
 ```
@@ -105,12 +110,26 @@ View the complete settings about the PV, LV, VG
     sudo lsblk 
 ```
 
+![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-logical-volume.png)
+
+![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-pvs-dbserver.png)
+
+![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-pvvolume.png)
+
+![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-vgdisplay1.png)
+
+![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-vgdisplay2.png)
+
 Format the logical volumes with mkfs to build a linux file system, **ext4** is the file extension.
 
 ```
     sudo mkfs -t ext4 /dev/webdata-vg/apps-lv
     sudo mkfs -t ext4 /dev/webdata-vg/logs-lv
 ```
+![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-format.png)
+
+![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-format-disk.png)
+
 
 Create **/var/www/html directory** to store website files
 

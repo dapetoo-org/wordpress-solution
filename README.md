@@ -222,6 +222,14 @@ Configure the MySQL server to accept connection from the WebServer instance
     SHOW DATABASES;
     exit
 ```
+## Screenshots
+
+![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-mysql.png)
+
+![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-db-connection.png)
+
+![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-dbserver-db.png)
+
 
 ### Start WordPress Configuration on the WebServer IP 
 Launch your browser

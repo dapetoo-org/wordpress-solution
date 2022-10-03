@@ -228,6 +228,15 @@ Launch your browser
 Type the IP-Address of the WebServer and append <IP-Address>/wordpress
 Follow the onscreen-instructions and enter the detailed for the database configured in the steps above.
 
+## Screenshots
+
+![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-wordpress.png)
+
+![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-wordpress2.png)
+
+![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-wordpress3.png)
+
+![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-wordpress-4.png)
 
 ## Challenges
 

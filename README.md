@@ -49,6 +49,10 @@ List all the attached volumes on the instances and noticed their names because t
     lsblk
     ls /dev/
 ```
+**LSBLK Screenshot**
+![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-lsblk.png)
+
+![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-lsblk-db-server.png)
 
 The **lsblk** command lists information about all available or the specified block
 devices. The lsblk command reads the sysfs filesystem and udev db to gather information. If the udev db is not available or lsblk is

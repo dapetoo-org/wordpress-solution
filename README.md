@@ -149,7 +149,10 @@ Run **blkid** to print block block devices information, the most important infor
     sudo vim /etc/fstab
 ```
 
-Sample /etc/fstab file
+ /etc/fstab file
+![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-fstab.png)
+
+![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-dbserver-db.png)
 
 Test the configuration and reload the daemon
 
@@ -167,6 +170,8 @@ WordPress is a free and open-source content management system written in PHP and
     sudo yum -y install wget httpd php php-mysqlnd php-fpm php-json
     sudo systemctl enable httpd
     sudo systemctl start httpd
+
+![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-httpd-installation.png)
 
 **Install PHP and it's package dependencies**
 
@@ -222,7 +227,6 @@ Configure the MySQL server to accept connection from the WebServer instance
     SHOW DATABASES;
     exit
 ```
-## Screenshots
 
 ![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-mysql.png)
 

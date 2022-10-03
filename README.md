@@ -26,6 +26,16 @@ EBS Volumes are use as file system for storage, databases or applications that r
 - Make sure you the volume is created in the same Availability Zone of the instance you want to attached the volume to
 - Select a volume from the volume dashboard, click on attach
 
+**Volumes Screenshot**
+![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-db-server-volumes.png)
+
+![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-volume.png)
+
+![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-volume-list.png)
+
+![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-volume-attach.png)
+
+
 ### Configure the EC2 instances attachment as required
 
 The volumes need to be mounted and formatted to be able to access data from the instance. And they are always in the /dev/ folder. This folder contains all the file storage attached to the system.
@@ -149,12 +159,11 @@ Run **blkid** to print block block devices information, the most important infor
     sudo vim /etc/fstab
 ```
 
- /etc/fstab file
+ **/etc/fstab file**
+ 
 ![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-fstab.png)
 
-![App Screenshot](https://github.com/scholarship-task/wordpress-solution/blob/main/screenshots/project6-dbserver-db.png)
-
-Test the configuration and reload the daemon
+**Test the configuration and reload the daemon**
 
 ```
    sudo mount -a
